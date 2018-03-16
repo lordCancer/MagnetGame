@@ -8,12 +8,12 @@ public class PlayerController : MonoBehaviour {
     public float speed;
     private Transform playerTransform;
     float distance = 10;
-    // private Vector2 desiredPos;
+    private Vector2 desiredPos;
 
     // Use this for initialization
     void Start () {
         playerTransform = GetComponent<Transform>();
-       // desiredPos = playerTransform.position;
+        desiredPos = playerTransform.position;
 	}
 	
 	// Update is called once per frame
