@@ -152,6 +152,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 212625688305937026, guid: 8a3e3da9ddc7bc84c973770aff2bf2c9,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8a3e3da9ddc7bc84c973770aff2bf2c9, type: 2}
   m_IsPrefabParent: 0
@@ -248,7 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01bffa8aa898b437183cd5617f7b5303, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pathName: Line
+  pathName: Path
   pathColor: {r: 0, g: 1, b: 1, a: 1}
   nodes:
   - {x: -5.1226215, y: 0.1214838, z: 0}
@@ -272,7 +277,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &631253174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,6 +388,11 @@ Prefab:
       propertyPath: swipeControl
       value: 
       objectReference: {fileID: 631253174}
+    - target: {fileID: 114205700719428628, guid: 884d49f5cadf4304ab966e8414b5608f,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 884d49f5cadf4304ab966e8414b5608f, type: 2}
   m_IsPrefabParent: 0
